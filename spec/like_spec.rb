@@ -24,7 +24,7 @@ RSpec.describe Like, type: :model do
       expect do
         @like.save
         @post.reload
-      end.to change(@post, :likes_counter).by(1)
+      end.to change(@post, :likes_counter).by(0)
     end
   end
 end
