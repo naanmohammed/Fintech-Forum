@@ -19,7 +19,7 @@ RSpec.describe Post, type: :model do
 
     it 'Title must not exceed 250 characters' do
       @post.title = 'abc' * 90
-       expect(@post).to_not be_valid
+      expect(@post).to_not be_valid
     end
 
     it 'CommentsCounter must be an integer greater than or equal to zero' do
