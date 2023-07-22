@@ -5,5 +5,4 @@ class Like < ApplicationRecord
   def update_post_likes_counter
     post.update_likes_counter
   end
-
 end
