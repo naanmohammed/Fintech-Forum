@@ -6,6 +6,10 @@ ruby '3.2.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 7.0.6'
 
+gem 'rails-controller-testing'
+
+gem "ffi"
+
 gem "rspec-rails"
 
 gem 'rubocop', '>= 1.0', '< 2.0'
