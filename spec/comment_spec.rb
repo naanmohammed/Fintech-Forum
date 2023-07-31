@@ -11,7 +11,7 @@ RSpec.describe Comment, type: :model do
     end
 
     it 'Text must not be blank' do
-      @comment.text = nil
+      @comment.text = ''
       expect(@comment).to_not be_valid
     end
 
@@ -26,9 +26,9 @@ RSpec.describe Comment, type: :model do
     end
 
     it 'Should update_post_comments_counter' do
-      comment = Comment.new(author: @user, post: @post)
+      comment = Comment.new(author: @user, post: @post, text: 'Hello' )
       comment.save
-      expect(@post.comments_counter).to be 1
+      expect(@post.comments_counter).to eq(1)
     end
   end
 end
