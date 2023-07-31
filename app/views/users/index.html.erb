@@ -1,8 +1,8 @@
 <main>
   <section>
     <ul>
-      <% @users.each do |user|%>
-        <%= link_to user do %>
+      <% @users.each do |user| %>
+        <%= link_to user_path(user) do %>
           <li class="card hover">
             <div class="user-image border"></div>
             <div class="user-data border">
