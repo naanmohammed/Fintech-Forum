@@ -7,6 +7,7 @@ class UsersController < ApplicationController
   def show
     # Logic for show action
     @user = User.find(params[:id])
+    @user.posts_counter = @user.posts.count
   end
 
 end
