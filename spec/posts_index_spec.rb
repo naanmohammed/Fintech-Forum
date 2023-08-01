@@ -6,7 +6,7 @@ RSpec.describe 'Post Index', type: :system do
   end
 
   let(:user) do
-    User.create(name: 'Naan', photo: 'https://unsplash.com/photos/ABCDEF', posts_counter: 5)
+    User.create(name: 'Tom Jenkins', photo: 'https://unsplash.com/photos/ABCDEF', posts_counter: 5)
   end
 
   let!(:post) do

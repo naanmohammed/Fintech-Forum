@@ -8,6 +8,8 @@ gem 'rails', '~> 7.0.6'
 
 gem 'rails-controller-testing'
 
+gem 'will_paginate'
+
 gem "ffi"
 
 gem "rspec-rails"
