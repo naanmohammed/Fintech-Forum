@@ -58,4 +58,10 @@ RSpec.describe 'Post Index', type: :system do
     click_link post.title
     expect(page).to have_current_path(user_post_path(user_id: user.id, id: post.id))
   end
+
+  it "displays the user's profile picture on user posts page" do
+    visit users_path(user_id: user.id)
+    expect(page).to have_css(".user-image")
+  end
+
 end
