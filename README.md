@@ -162,6 +162,12 @@ To run tests, run the following command:
 - Twitter: [Naan](https://twitter.com/_naanahmed)
 - LinkedIn: [Naan Mohammed](https://www.linkedin.com/in/naanahmed)
 
+👤 **Amen Tetteh**
+
+- GitHub: [Amen Tetteh](https://github.com/amentetteh)
+- Twitter: [Amen Tetteh](https://twitter.com/amentetteh)
+- LinkedIn: [Amen Tetteh](https://www.linkedin.com/in/amentetteh)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
