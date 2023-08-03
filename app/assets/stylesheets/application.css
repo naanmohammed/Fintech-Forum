@@ -63,6 +63,8 @@ a {
 .user-image {
   flex: 20%;
   height: 13rem;
+  min-width: 200px;
+  max-width: 400px;
 }
 
 .user-data {

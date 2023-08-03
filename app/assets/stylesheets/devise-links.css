@@ -1,0 +1,35 @@
+/* devise_links.css */
+
+.devise-links {
+  text-align: center;
+}
+
+.devise-links a {
+  display: block;
+  margin: 0.25em 0;
+  color: #039be5;
+  text-decoration: none;
+}
+
+.devise-links a:hover {
+  text-decoration: underline;
+}
+
+.devise-links button {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+  padding: 1em;
+  border: none;
+  border-radius: 4px;
+  background: #039be5;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.devise-links button:hover {
+  background: #026cad;
+  cursor: pointer;
+}
