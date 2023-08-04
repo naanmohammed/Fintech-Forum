@@ -1,7 +1,13 @@
 <main>
   <section>
     <div class="card">
-      <%= image_tag(@user.photo, class: "user-image border") %>
+      <% if @user.photo.present? %>
+        <%= image_tag(@user.photo, class: "user-image border") %>
+      <% else %>
+        <div class ="user-image border">
+          <%= image_tag "avatar.jpeg" %>
+        </div>
+      <% end %>
       <div class="user-data border">
         <h1><%= @user.name %></h1>
         <p><%= @user.bio %></p>

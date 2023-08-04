@@ -14,6 +14,8 @@ gem "ffi"
 
 gem "rspec-rails"
 
+gem 'cancancan'
+
 gem 'rubocop', '>= 1.0', '< 2.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
