@@ -16,6 +16,8 @@ gem "rspec-rails"
 
 gem 'cancancan'
 
+gem 'rswag'
+
 gem 'active_model_serializers', '~> 0.10.13'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
